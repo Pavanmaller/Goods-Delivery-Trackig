@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Order Confirmed</fullName>
+        <default>false</default>
+        <label>Order Confirmed</label>
+    </customValue>
+    <customValue>
+        <fullName>Order Placed</fullName>
+        <default>false</default>
+        <label>Order Placed</label>
+    </customValue>
+    <customValue>
+        <fullName>Dispatched</fullName>
+        <default>false</default>
+        <label>Dispatched</label>
+    </customValue>
+    <customValue>
+        <fullName>Shipped</fullName>
+        <default>false</default>
+        <label>Shipped</label>
+    </customValue>
+    <customValue>
+        <fullName>Out for Delivery</fullName>
+        <default>false</default>
+        <label>Out for Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Delivered</fullName>
+        <default>false</default>
+        <label>Delivered</label>
+    </customValue>
+    <customValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+    </customValue>
+    <masterLabel>Shipment Tracking Picklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

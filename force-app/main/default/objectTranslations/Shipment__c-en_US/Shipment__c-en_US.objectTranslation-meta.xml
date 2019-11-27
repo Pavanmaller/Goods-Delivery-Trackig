@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Shipment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shipments</value>
+    </caseValues>
+    <layouts>
+        <layout>Delivery Shipment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Shipment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Generate Invoice --></label>
+        <name>Generate_Invoice</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Share Record --></label>
+        <name>Share_Record</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

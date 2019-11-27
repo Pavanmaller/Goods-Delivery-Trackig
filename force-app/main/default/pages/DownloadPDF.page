@@ -1,0 +1,4 @@
+<!--Override to ALWAYS download -->
+<apex:page standardController="Shipment__c" contentType="application/vnd.ms-pdf#{!Shipment__c.Name}.pdf">   
+    <apex:include pageName="shipmentPDFInvoice"/>        
+</apex:page>
